@@ -1,4 +1,4 @@
-package com.tong;
+package com.tong.stud;
 
 public class Student {
 
@@ -7,8 +7,9 @@ public class Student {
         int english;
         int math;
 
+
         public Student() {
-            super();
+            super( );
         }
 
         public Student(String id, String name, int english, int math) {
