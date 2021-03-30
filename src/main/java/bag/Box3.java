@@ -1,6 +1,6 @@
 package bag;
 
-public class Box3 {
+public class Box3 extends Box{
     public Box3() {
         int lengh = 10;
         int width = 10;
