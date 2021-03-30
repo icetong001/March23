@@ -6,5 +6,5 @@ public class Graduatestudent extends Student {
         super(id, name, english, math);
         this.thesis=thesis;
     }
-}
-
+    public  void mail(){
+    }}
