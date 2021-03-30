@@ -1,6 +1,6 @@
 package com.tong.stud;
 
-public class Student {
+public abstract class Student {
 
         String id;
         String name;
@@ -23,5 +23,7 @@ public class Student {
         public void print() {
             System.out.println(id + "\t" + name + "\t" + english + "\t" + math);
         }
-    }
 
+
+public  abstract void mail();
+}
